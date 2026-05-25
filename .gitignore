@@ -1,0 +1,24 @@
+# Core Application Storage & Exports
+# Exclude local JSON databases and exported CSV analytics
+data.json
+export.csv
+
+# Python Bytecode & Runtime Caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & System Configuration Files
+# VS Code local workspace files
+.vscode/
+!.vscode/extensions.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments (If applicable)
+.venv/
+venv/
+ENV/
+env/
